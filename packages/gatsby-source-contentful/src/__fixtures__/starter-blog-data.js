@@ -652,10 +652,14 @@ exports.initialSync = {
   locales: [
     {
       code: `en-US`,
-      name: `U.S. English`,
+      name: `English (United States)`,
       default: true,
       fallbackCode: null,
-      sys: { id: `6g1RjQRqBhnUcSmYJ3wKrs`, type: `Locale`, version: 2 },
+      sys: {
+        id: `1uSElBQA68GRKF30tpTxxT`,
+        type: `Locale`,
+        version: 1,
+      },
     },
     {
       code: `nl`,
@@ -676,8 +680,14 @@ exports.initialSync = {
       {
         code: `en-US`,
         default: true,
-        name: `U.S. English`,
+        name: `English (United States)`,
         fallbackCode: null,
+      },
+      {
+        code: `nl`,
+        default: false,
+        name: `Dutch`,
+        fallbackCode: `en-US`,
       },
     ],
   },
@@ -1033,10 +1043,25 @@ exports.createBlogPost = {
   locales: [
     {
       code: `en-US`,
-      name: `U.S. English`,
+      name: `English (United States)`,
       default: true,
       fallbackCode: null,
-      sys: { id: `6g1RjQRqBhnUcSmYJ3wKrs`, type: `Locale`, version: 2 },
+      sys: {
+        id: `1uSElBQA68GRKF30tpTxxT`,
+        type: `Locale`,
+        version: 1,
+      },
+    },
+    {
+      code: `nl`,
+      name: `Dutch`,
+      default: false,
+      fallbackCode: `en-US`,
+      sys: {
+        id: `2T7M2OzIrvE8cOCOF1HMuY`,
+        type: `Locale`,
+        version: 1,
+      },
     },
   ],
   space: {
@@ -1046,8 +1071,14 @@ exports.createBlogPost = {
       {
         code: `en-US`,
         default: true,
-        name: `U.S. English`,
+        name: `English (United States)`,
         fallbackCode: null,
+      },
+      {
+        code: `nl`,
+        default: false,
+        name: `Dutch`,
+        fallbackCode: `en-US`,
       },
     ],
   },
@@ -1364,10 +1395,25 @@ exports.updateBlogPost = {
   locales: [
     {
       code: `en-US`,
-      name: `U.S. English`,
+      name: `English (United States)`,
       default: true,
       fallbackCode: null,
-      sys: { id: `6g1RjQRqBhnUcSmYJ3wKrs`, type: `Locale`, version: 2 },
+      sys: {
+        id: `1uSElBQA68GRKF30tpTxxT`,
+        type: `Locale`,
+        version: 1,
+      },
+    },
+    {
+      code: `nl`,
+      name: `Dutch`,
+      default: false,
+      fallbackCode: `en-US`,
+      sys: {
+        id: `2T7M2OzIrvE8cOCOF1HMuY`,
+        type: `Locale`,
+        version: 1,
+      },
     },
   ],
   space: {
@@ -1377,8 +1423,14 @@ exports.updateBlogPost = {
       {
         code: `en-US`,
         default: true,
-        name: `U.S. English`,
+        name: `English (United States)`,
         fallbackCode: null,
+      },
+      {
+        code: `nl`,
+        default: false,
+        name: `Dutch`,
+        fallbackCode: `en-US`,
       },
     ],
   },
@@ -1657,10 +1709,25 @@ exports.removeBlogPost = {
   locales: [
     {
       code: `en-US`,
-      name: `U.S. English`,
+      name: `English (United States)`,
       default: true,
       fallbackCode: null,
-      sys: { id: `6g1RjQRqBhnUcSmYJ3wKrs`, type: `Locale`, version: 2 },
+      sys: {
+        id: `1uSElBQA68GRKF30tpTxxT`,
+        type: `Locale`,
+        version: 1,
+      },
+    },
+    {
+      code: `nl`,
+      name: `Dutch`,
+      default: false,
+      fallbackCode: `en-US`,
+      sys: {
+        id: `2T7M2OzIrvE8cOCOF1HMuY`,
+        type: `Locale`,
+        version: 1,
+      },
     },
   ],
   space: {
@@ -1670,8 +1737,14 @@ exports.removeBlogPost = {
       {
         code: `en-US`,
         default: true,
-        name: `U.S. English`,
+        name: `English (United States)`,
         fallbackCode: null,
+      },
+      {
+        code: `nl`,
+        default: false,
+        name: `Dutch`,
+        fallbackCode: `en-US`,
       },
     ],
   },
@@ -1950,10 +2023,25 @@ exports.removeAsset = {
   locales: [
     {
       code: `en-US`,
-      name: `U.S. English`,
+      name: `English (United States)`,
       default: true,
       fallbackCode: null,
-      sys: { id: `6g1RjQRqBhnUcSmYJ3wKrs`, type: `Locale`, version: 2 },
+      sys: {
+        id: `1uSElBQA68GRKF30tpTxxT`,
+        type: `Locale`,
+        version: 1,
+      },
+    },
+    {
+      code: `nl`,
+      name: `Dutch`,
+      default: false,
+      fallbackCode: `en-US`,
+      sys: {
+        id: `2T7M2OzIrvE8cOCOF1HMuY`,
+        type: `Locale`,
+        version: 1,
+      },
     },
   ],
   space: {
@@ -1963,8 +2051,14 @@ exports.removeAsset = {
       {
         code: `en-US`,
         default: true,
-        name: `U.S. English`,
+        name: `English (United States)`,
         fallbackCode: null,
+      },
+      {
+        code: `nl`,
+        default: false,
+        name: `Dutch`,
+        fallbackCode: `en-US`,
       },
     ],
   },
